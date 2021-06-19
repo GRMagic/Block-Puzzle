@@ -10,10 +10,7 @@ namespace Puzzle.Console
             var game = new Game();
             do
             {
-                System.Console.Clear();
-                System.Console.WriteLine($"Score: {game.Score}");
-                Print(game.Board);
-                Print(game.Pieces);
+                Print(game);
 
                 System.Console.Write("\nChoice the piece (a,b,c): ");
                 var num = System.Console.ReadKey().KeyChar - 'a';
@@ -24,6 +21,15 @@ namespace Puzzle.Console
 
                 game.UsePiece(num, lin, col);
             } while (!game.GameOver());
+            Print(game);
+        }
+
+        public static void Print(Game game)
+        {
+            System.Console.Clear();
+            System.Console.WriteLine($"Score: {game.Score}");
+            Print(game.Board);
+            Print(game.Pieces);
         }
 
         public static void Print(Board board)
