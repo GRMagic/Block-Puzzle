@@ -33,7 +33,6 @@
                     Height="400"
                     ClipToBounds="True"
                     Loaded="GameCanvas_Loaded"
-                    Cursor="None"
                     MouseMove="GameCanvas_MouseMove"
                     MouseUp="GameCanvas_MouseUp"
                     MouseEnter="GameCanvas_MouseEnter"

@@ -228,10 +228,12 @@ namespace Puzzle.WPF
             if (SelectedPiece == piece)
             {
                 SelectedPiece = null;
+                GameCanvas.Cursor = Cursors.Arrow;
             }
             else
             {
                 SelectedPiece = piece;
+                GameCanvas.Cursor = Cursors.None;
             }
             SetupSelectedPieceCanvas();
         }
