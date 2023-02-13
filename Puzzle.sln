@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle.Core", "Puzzle.Core\Puzzle.Core.csproj", "{F6B74D43-955A-4E79-BB92-92359D653CFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Puzzle.Core", "Puzzle.Core\Puzzle.Core.csproj", "{F6B74D43-955A-4E79-BB92-92359D653CFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle.Console", "Puzzle.Console\Puzzle.Console.csproj", "{217D541C-53D2-4AA9-875B-D0A397276A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Puzzle.Console", "Puzzle.Console\Puzzle.Console.csproj", "{217D541C-53D2-4AA9-875B-D0A397276A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle.WPF", "Puzzle.WPF\Puzzle.WPF.csproj", "{D70451BC-6BF4-4138-9EDE-2B7D8040D04A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{217D541C-53D2-4AA9-875B-D0A397276A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217D541C-53D2-4AA9-875B-D0A397276A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217D541C-53D2-4AA9-875B-D0A397276A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70451BC-6BF4-4138-9EDE-2B7D8040D04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70451BC-6BF4-4138-9EDE-2B7D8040D04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70451BC-6BF4-4138-9EDE-2B7D8040D04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70451BC-6BF4-4138-9EDE-2B7D8040D04A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

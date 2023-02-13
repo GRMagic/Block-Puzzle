@@ -2,7 +2,7 @@
 
 namespace Puzzle.Core
 {
-    public class Piece
+    public sealed class Piece
     {
         public int[,] Fields { get; private set; }
         public int Lines => Fields.GetLength(0);
@@ -25,6 +25,7 @@ namespace Puzzle.Core
             return sum;
         }
 
+        public const int MaxLength = 5;
         private static readonly int[][,] Models = new int[][,]
         {
             new[,] {

@@ -41,7 +41,7 @@ namespace Puzzle.Console
                 for (int c = 0; c < board.Size; c++)
                 {
                     if (l < 0) System.Console.Write(" " + (c+1));
-                    else System.Console.Write(board.Fields[l, c] > 0 ? " ■" : " o");
+                    else System.Console.Write(board[l, c] > 0 ? " ■" : " o");
                 }
                 System.Console.WriteLine();
             }

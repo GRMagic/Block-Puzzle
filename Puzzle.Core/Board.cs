@@ -2,14 +2,18 @@
 
 namespace Puzzle.Core
 {
-    public class Board
+    public sealed class Board
     {
         public readonly int Size;
+        private readonly int[,] Fields;
 
         /// <summary>
         /// Lines and Columns
         /// </summary>
-        public int[,] Fields { get; private set; }
+        public int this[int r, int c]
+        {
+            get => Fields[r, c];
+        }
 
         public Board(int size = 8)
         {

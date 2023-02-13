@@ -2,7 +2,7 @@
 
 namespace Puzzle.Core
 {
-    public class Game
+    public sealed class Game
     {
         public long Score { get; private set; }
         public Board Board { get; private set; }
